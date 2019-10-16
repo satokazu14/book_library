@@ -1,0 +1,36 @@
+td.center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+td.add {
+  position: relative;
+}
+
+button.add {
+  position: absolute;
+  bottom: 8px;
+}
+
+i.saveItem,input.edit {
+  display: none;
+}
+
+i.fa-edit,.fa-check,.fa-trash-alt,.minus,.plus {
+  cursor: pointer;
+}
+
+i.plus {
+  color: green;
+}
+
+i.minus {
+  color: pink;
+}
+
+span.already {
+  color: red;
+}
+
+
+
